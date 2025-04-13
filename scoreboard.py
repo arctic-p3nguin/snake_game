@@ -8,7 +8,7 @@ class Scoreboard(Turtle):
         self.score = 0
         self.penup()
         self.hideturtle()
-        self.color("white")
+        self.color("black")
         self.goto(100, 270)
         self.write("score : {}".format(self.score), align="center", font=("Consolas", 20, "normal"))
 
